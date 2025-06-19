@@ -1,0 +1,34 @@
+
+Columns:
+ ['Nitrogen', 'Phosphorous', 'Pottasium', 'pH', 'Moisture', 'SoilType']
+
+Missing values:
+ Nitrogen       1
+Phosphorous    2
+Pottasium      0
+pH             0
+Moisture       1
+SoilType       0
+dtype: int64
+
+Summary statistics:
+          Nitrogen  Phosphorous  Pottasium         pH   Moisture SoilType
+count   19.000000    18.000000  20.000000  20.000000  19.000000       20
+unique        NaN          NaN        NaN        NaN        NaN        4
+top           NaN          NaN        NaN        NaN        NaN     Loam
+freq          NaN          NaN        NaN        NaN        NaN        6
+mean    36.842105    15.333333  23.050000   6.720000  14.789474      NaN
+std      5.918550     4.325030   3.170173   0.426244   2.225582      NaN
+min     28.000000     9.000000  18.000000   6.000000  11.000000      NaN
+25%     32.500000    12.250000  20.750000   6.375000  13.000000      NaN
+50%     36.000000    15.000000  22.500000   6.800000  15.000000      NaN
+75%     40.500000    18.000000  25.000000   7.000000  16.000000      NaN
+max     50.000000    25.000000  30.000000   7.500000  19.000000      NaN
+
+Class distribution:
+ SoilType
+Loam     6
+Clay     6
+Silt     4
+Sandy    4
+Name: count, dtype: int64
